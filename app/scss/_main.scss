@@ -1,0 +1,52 @@
+.about-us {
+  margin: 32px 0;
+
+  &-inner {
+    &__title {
+      font-size: 34px;
+      font-weight: 500;
+      margin: 0 0 16px 0;
+    }
+
+    &__descr {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    &__descr-1 {
+      padding: 0 0 24px 0;
+      border-bottom: 2px solid $black;
+    }
+
+    &__descr-2 {
+      margin: 24px 0;
+    }
+
+    &__btn {
+      color: $black;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 6px;
+      border: 2px solid $green;
+      padding: 10px 26.5px;
+      display: inline-block;
+      font-family: 'Tektur', cursive;
+    }
+
+    &__btn:hover {
+      background-color: $green;
+      color: $white;
+    }
+
+    &__content {
+      margin: 0 0 32px 0;
+    }
+
+    &__img {
+      width: 100%;
+      height: 496px;
+      object-fit: cover;
+    }
+
+  }
+}
