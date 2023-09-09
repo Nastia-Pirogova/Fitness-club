@@ -43,12 +43,58 @@
 
     }
   }
+  .advantages {
+
+    &-inner {
+      padding: 64px 32px;
+
+      &__list {
+        gap: 32px 57px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        //justify-content: center;
+        justify-content: flex-end;
+        margin: auto;
+        width: 704px;
+
+        &-item {
+          width: 300px;
+          height: 286px;
+          font-size: 56px;
+          gap: 12px;
+
+
+          span {
+            font-size: 22px;
+          }
+        }
+      }
+
+      &-img {
+        width: 100%;
+        padding: 32px;
+      }
+    }
+  }
+  .advantages-inner__list-item:nth-child(3) {
+    margin: 52px 47px 0 0;
+  }
+  .advantages-inner__list-item:nth-child(4) {
+    margin: -50px 0 0 0;
+  }
+
+  .marquee {
+    padding: 31px 0 31px 20px;
+    font-size: 24px;
+    margin: 0 0 32px 0;
+  }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1220px) {
 
   .container {
-    width: 1760px;
+    width: 100%;
     padding: 0 80px;
   }
   .about-us {
@@ -57,6 +103,8 @@
     &-inner {
       display: flex;
       justify-content: space-between;
+      gap: 40px;
+
       &__title {
         font-size: 88px;
         letter-spacing: 2.64px;
@@ -64,7 +112,7 @@
       }
 
       &__descr {
-        width: 796px;
+        //width: 556px;
         font-size: 22px;
       }
 
@@ -83,9 +131,78 @@
 
       &__img {
         width: 722px;
-        height: 881px;}
+        height: 881px;
+      }
 
     }
   }
+  .advantages {
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 80px 115px 80px;
+
+    &-inner {
+      padding: 91px 0 0 0;
+      //width: 813px;
+      //height: 689px;
+
+      &__list {
+        gap: 65px 77px;
+        width: 878px;
+
+        &-item {
+          width: 368px;
+          height: 312px;
+          font-size: 80px;
+          gap: 24px;
+
+          span {
+            font-size: 24px;
+          }
+        }
+      }
+
+      &__content-img {
+        background-color: $black;
+
+      }
+
+      &-img {
+        //width: 717px;
+        //height: 969px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 90px 0 0 0;
+      }
+    }
+  }
+  .marquee {
+    padding: 30px 0 30px 20px;
+    font-size: 30px;
+    margin: 32px 0 32px 0;
+  }
 }
 
+@media screen and (min-width: 1920px) {
+
+  .container {
+    width: 1760px;
+    padding: 0 80px;
+  }
+  .about-us {
+    &-inner__content {
+      width: 796px;
+    }
+  }
+  .advantages-inner-img {
+    margin: -90px 0 0 0;
+  }
+  section.advantages {
+    gap: 173px;
+    //max-width: 1920px;
+    margin: auto;
+  }
+
+}
