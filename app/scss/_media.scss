@@ -89,6 +89,47 @@
     font-size: 24px;
     margin: 0 0 32px 0;
   }
+  .spec-programs-title {
+    font-size: 64px;
+  }
+  .spec-programs-descr {
+    font-size: 20px;
+    padding: 20px 0 48px 0;
+    margin: 0 0 42px 0;
+  }
+  .spec-programs {
+    padding: 64px 0;
+  }
+  .spec-programs-item-title {
+    font-size: 40px;
+  }
+  .spec-programs-list-title {
+    font-size: 40px;
+  }
+  .spec-programs-list-descr {
+    font-size: 20px;
+    margin: 16px 0 0 0;
+  }
+  li.spec-programs-item{
+    padding: 40px 0;
+  }
+
+  .spec-programs-images {
+    height: 383px;
+    width: 100%;
+    position: relative;
+    margin: 27px auto 0 auto;
+  }
+
+  .spec-programs-img-1 {
+    width: 333px;
+  }
+
+  .spec-programs-img-2 {
+    width: 289px;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1220px) {
@@ -183,12 +224,47 @@
     font-size: 30px;
     margin: 32px 0 32px 0;
   }
+
+  .spec-programs-title {
+    font-size: 88px;
+  }
+  .spec-programs-descr {
+    font-size: 22px;
+    padding: 32px 0 64px 0;
+    margin: 0 ;
+  }
+.spec-programs-descr-span{
+  width: 980px;
+  display: block;
+}
+
+
+  .spec-programs {
+    padding: 100px 0;
+  }
+  .spec-programs-item-title {
+    font-size: 48px;
+  }
+  .spec-programs-list-title {
+    font-size: 48px;
+  }
+  .spec-programs-list-descr {
+    font-size: 22px;
+    margin: 24px 0 0 0;
+    width: 867px;
+  }
+  li.spec-programs-item{
+    padding: 64px 0;
+  }
+
+
+
 }
 
 @media screen and (min-width: 1920px) {
 
   .container {
-    width: 1760px;
+    width: 1920px;
     padding: 0 80px;
   }
   .about-us {
@@ -204,5 +280,25 @@
     //max-width: 1920px;
     margin: auto;
   }
+  .spec-programs-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100%;
+    width: 400px;
+  }
 
+  .spec-programs-img-1 {
+    width: 443px;
+    position: absolute;
+    right: 122px;
+    top: 146px;
+  }
+
+  .spec-programs-img-2 {
+    width: 374px;
+    right: 427px;
+    top: 528px;
+  }
 }
