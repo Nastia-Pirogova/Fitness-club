@@ -157,7 +157,7 @@
   }
   .support-form .title-form {
     font-size: 64px;
-    margin: 0  auto 32px auto;
+    margin: 0 auto 32px auto;
   }
   form.contacts-form {
     width: 500px;
@@ -166,7 +166,7 @@
   .support-form .contacts-form-wrap {
     width: 232px;
   }
-  .support-form .contacts-form-wrap-text{
+  .support-form .contacts-form-wrap-text {
     width: 500px;
   }
   .support-form .contacts-form-input-inner {
@@ -312,6 +312,40 @@
   .spec-programs-img-2 {
     width: 35%;
   }
+
+  .support-form .title-form {
+    font-size: 120px;
+    margin: 0 auto 48px auto;
+  }
+  form.contacts-form {
+    width: 752px;
+  }
+  .support-form .contacts-form-wrap {
+    font-size: 24px;
+  }
+  .support-form .contacts-form-wrap {
+    width: 360px;
+  }
+
+  .support-form .contacts-form-input-inner {
+    gap: 24px 32px;
+    margin: 0 0 24px 0;
+  }
+  .support-form-wrap {
+    padding: 100px 80px;
+    width: 1085px;
+    margin: auto;
+  }
+  .support-form .contacts-form-wrap-text {
+    width: 752px !important;
+  }
+  .support-form .contacts-form-textarea {
+    width: 100%;
+    height: 181px;
+  }
+  section.support-form {
+    padding: 100px 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -323,6 +357,12 @@
     width: 466px;
 
   }
+
+  .support-form .contacts-form-btn {
+    font-size: 36px;
+    padding: 24px;
+  }
+
 }
 
 @media screen and (min-width: 1920px) {
