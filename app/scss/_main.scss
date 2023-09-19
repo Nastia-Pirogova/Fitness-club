@@ -124,6 +124,7 @@ marquee {
   background-color: $green;
   padding: 32px 0;
   position: relative;
+
   &-title {
     color: $white;
     font-family: Tektur, sans-serif;
@@ -204,4 +205,87 @@ marquee {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+
+.support-form {
+  background-color: $black;
+  color: $white;
+  font-family: Manrope, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 40px 0;
+  &-wrap {
+    padding: 24px;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 0.5px solid $white;
+  }
+
+  .title-form {
+    color: $pink;
+    text-align: center;
+    font-family: Tektur, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 24px 0;
+  }
+
+  .contacts-form-wrap {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    width: 111px;
+  }
+
+  .contacts-form-input-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 16px;
+    margin: 0 0 14px 0;
+    justify-content: center;
+  }
+
+  .contacts-form-label > span {
+    color: $pink;
+  }
+
+  .contacts-form-input {
+    border-radius: 3px;
+    border: 1px solid #605E5E;
+    background-color: $black;
+    padding: 5px;
+    color: $white;
+  }
+
+  .contacts-form-wrap-text {
+    margin: 0 auto 24px auto;
+    width: 238px;
+  }
+
+  .contacts-form-textarea {
+    width: 238px;
+    height: 110px;
+    resize: none;
+  }
+  .contacts-form-btn{
+    border-radius: 6px;
+    background-color: $pink;
+    padding: 10px;
+    width: 100%;
+    color: $white;
+    font-family: Tektur,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+
+  }
+  .contacts-form-wrap-inner-textarea{
+
+  }
 }

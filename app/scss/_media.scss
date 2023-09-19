@@ -1,3 +1,25 @@
+@media screen and (min-width: 425px) {
+  .support-form .contacts-form-wrap {
+    width: 160px;
+  }
+  .support-form .contacts-form-input {
+    padding: 10px;
+  }
+  .support-form .contacts-form-textarea {
+    width: 344px;
+  }
+  .support-form .contacts-form-wrap-text {
+    width: 344px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  form.contacts-form {
+    width: 350px;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
@@ -110,7 +132,7 @@
     font-size: 20px;
     margin: 16px 0 0 0;
   }
-  li.spec-programs-item{
+  li.spec-programs-item {
     padding: 40px 0;
   }
 
@@ -130,13 +152,51 @@
     right: 0;
     bottom: 0;
   }
+  section.support-form {
+    padding: 88px 0;
+  }
+  .support-form .title-form {
+    font-size: 64px;
+    margin: 0  auto 32px auto;
+  }
+  form.contacts-form {
+    width: 500px;
+
+  }
+  .support-form .contacts-form-wrap {
+    width: 232px;
+  }
+  .support-form .contacts-form-wrap-text{
+    width: 500px;
+  }
+  .support-form .contacts-form-input-inner {
+    gap: 16px 35px;
+    margin: 0 0 16px 0;
+  }
+  .support-form .contacts-form-textarea {
+    width: 100%;
+  }
+  .support-form .contacts-form-wrap {
+    font-size: 18px;
+    gap: 10px;
+  }
+  .contacts-form-wrap.contacts-form-wrap-text {
+    margin: 0 0 32px 0;
+  }
+  .support-form .contacts-form-btn {
+    font-size: 24px;
+    padding: 17px;
+  }
+  .support-form-wrap {
+    padding: 55px 90px;
+  }
 }
 
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1280px) {
 
   .container {
     width: 100%;
-    padding: 0 80px;
+    padding: 0 40px;
   }
   .about-us {
     margin: 64px 0;
@@ -177,48 +237,7 @@
 
     }
   }
-  .advantages {
-    justify-content: center;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 0 80px 115px 80px;
 
-    &-inner {
-      padding: 91px 0 0 0;
-      //width: 813px;
-      //height: 689px;
-
-      &__list {
-        gap: 65px 77px;
-        width: 878px;
-
-        &-item {
-          width: 368px;
-          height: 312px;
-          font-size: 80px;
-          gap: 24px;
-
-          span {
-            font-size: 24px;
-          }
-        }
-      }
-
-      &__content-img {
-        background-color: $black;
-
-      }
-
-      &-img {
-        //width: 717px;
-        //height: 969px;
-        width: 100%;
-        height: auto;
-        padding: 0;
-        margin: 90px 0 0 0;
-      }
-    }
-  }
   .marquee {
     padding: 30px 0 30px 20px;
     font-size: 30px;
@@ -231,12 +250,12 @@
   .spec-programs-descr {
     font-size: 22px;
     padding: 32px 0 64px 0;
-    margin: 0 ;
+    margin: 0;
   }
-.spec-programs-descr-span{
-  width: 980px;
-  display: block;
-}
+  .spec-programs-descr-span {
+    width: 980px;
+    display: block;
+  }
 
 
   .spec-programs {
@@ -253,8 +272,56 @@
     margin: 24px 0 0 0;
     width: 867px;
   }
-  li.spec-programs-item{
+  li.spec-programs-item {
     padding: 64px 0;
+  }
+  .advantages-inner__list-item {
+    width: 300px;
+    height: 300px;
+    font-size: 59px;
+    gap: 5px;
+  }
+  .advantages-inner__list {
+    gap: 40px 30px;
+    width: 680px;
+  }
+  .advantages-inner__list-item:nth-child(3) {
+    margin: 28px 24px 0 0;
+  }
+  .advantages {
+    padding: 0 20px 115px 20px;
+  }
+  .advantages-inner-img {
+    padding: 0;
+    width: 488px;
+    height: 843px;
+    object-fit: cover;
+    margin: -60px 0 0 0;
+  }
+  section.advantages {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .advantages-inner__content-img {
+    background-color: $black;
+  }
+  .spec-programs-img-1 {
+    width: 35%;
+  }
+  .spec-programs-img-2 {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .spec-programs-img-1 {
+    width: 466px;
+
+  }
+  .spec-programs-img-2 {
+    width: 466px;
+
   }
 }
 
@@ -296,5 +363,47 @@
     width: 374px;
     right: 427px;
     top: 528px;
+  }
+  .advantages {
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 80px 115px 80px;
+
+    &-inner {
+      padding: 91px 0 0 0;
+      //width: 813px;
+      //height: 689px;
+
+      &__list {
+        gap: 65px 77px;
+        width: 878px;
+
+        &-item {
+          width: 368px;
+          height: 312px;
+          font-size: 80px;
+          gap: 24px;
+
+          span {
+            font-size: 24px;
+          }
+        }
+      }
+
+      &__content-img {
+        background-color: $black;
+
+      }
+
+      &-img {
+        //width: 717px;
+        //height: 969px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: -90px 0 0 0;
+      }
+    }
   }
 }
