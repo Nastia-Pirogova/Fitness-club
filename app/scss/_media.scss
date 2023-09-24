@@ -18,6 +18,64 @@
     width: 350px;
     margin: auto;
   }
+  .footer {
+
+    &-inner {
+      gap: 110px 160px;
+      justify-content: center;
+      padding: 64px 0 100px 0;
+
+      &__logo {
+        font-family: Tektur, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        gap: 74px;
+        align-items: center;
+
+        span {
+          width: 380px;
+        }
+
+        img {
+          width: 124.33px;
+          height: 174.712px;
+        }
+      }
+
+
+      &-menu__list {
+        gap: 24px;
+
+        &-item {
+          font-size: 32px;
+        }
+      }
+
+      &-link-menu {
+        gap: 12px;
+      }
+
+      &-link__list {
+        gap: 24px;
+
+        &-item {
+          font-size: 24px;
+
+          svg {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+
+      &__bottom {
+        padding: 32px 0;
+        font-size: 18px;
+      }
+    }
+
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -190,6 +248,24 @@
   .support-form-wrap {
     padding: 55px 90px;
   }
+  .marquee-bottom {
+    margin: 15px 0;
+  }
+
+  .footer {
+
+    &-inner {
+      &__logo {
+        font-size: 56px;
+        gap: 180px;
+
+      }
+
+      .list-link {
+        gap: 40px;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -198,6 +274,30 @@
     width: 100%;
     padding: 0 40px;
   }
+  .header-inner__list {
+    display: flex;
+    gap: 60px;
+  }
+  .header-language {
+    color: $black;
+    font-family: Manrope,sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .header-inner__language {
+    gap: 22px;
+  }
+  .header-inner__btn {
+    display: none;
+  }
+  li.header-inner__list-item {
+    font-family: Tektur,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
   .about-us {
     margin: 64px 0;
 
@@ -346,6 +446,18 @@
   section.support-form {
     padding: 100px 0;
   }
+  .footer-inner__logo {
+    font-size: 56px;
+    gap: 60px;
+  }
+  .footer-inner .list-link {
+    gap: 140px;
+  }
+  .footer-inner {
+    gap: 110px 260px;
+    justify-content: center;
+    padding: 100px 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -445,5 +557,9 @@
         margin: -90px 0 0 0;
       }
     }
+  }
+
+  .header-inner__list {
+    gap: 120px;
   }
 }
